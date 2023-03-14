@@ -110,7 +110,7 @@ footer {
     color: #606c38;
 }
 
-[id = "poem"] {
+.poem {
     color: #dda15e;
     text-align: center;
 
