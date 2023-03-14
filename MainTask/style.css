@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif; 
+    text-align:center; 
+    background-color: #fefae0; 
+    color:#bc6c25
+}
+
+.foot {
+    text-decoration:dotted;
+    color: #dda15e;
+}
+
+.link-text {
+    text-decoration: none;
+    color:#606c38;
+     
+}
+.link-text:hover {
+    color:#dda15e
+}
+
+h1 {
+    color:#283618;
+}
+
+h2 {
+    color:#283618; 
+    font-size: medium;
+}
+
+[id = "poem"] {
+    color: #dda15e;
+}
+
+footer {
+    font-family: 'Courier New'; 
+    font-size: small;
+}
