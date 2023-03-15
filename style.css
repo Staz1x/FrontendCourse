@@ -1,3 +1,5 @@
+/*Generell*/
+
 body {
     background-color: #fefae0; 
 }
@@ -22,50 +24,6 @@ p {
      
 }
 
-.link-text:hover {
-    color:#dda15e
-}
-
-.list-text {
-    text-align: center;
-    font-family:'Gill Sans';
-}
-
-.git-link {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: #606c38;
-    background-color: #fefae0;
-}
-
-.contact-back {
-    background-color: #fefae0;
-}
-
-.image-mic {
-    display: block;
-    margin-left: auto;
-    margin-right: 100px;
-    width: 200px;
-    height: auto;
-}
-
-.frame {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: dotted;
-    border-radius: 15px;
-    box-shadow: 5px 7px;
-}
-
-.image-pos {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1 {
     font-family:Georgia;
     color:#283618;
@@ -77,6 +35,52 @@ h2 {
     color:#283618; 
     font-size: medium;
     text-align: center;
+}
+
+footer {
+    font-family: 'Courier New'; 
+    font-size: small;
+    text-align: center;
+    color: #dda15e;
+    margin-bottom: 10px;
+}
+
+.foot {
+    text-decoration: none;
+    color: #606c38;
+}
+
+/*index*/
+
+.poem {
+    color: #dda15e;
+    text-align: center;
+
+}
+
+.list-text {
+    text-align: center;
+    font-family:'Gill Sans';
+}
+
+.image-mic {
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    width: 200px;
+    height: auto;
+}
+
+.image-pos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*portfolio*/
+
+.link-text:hover {
+    color:#dda15e
 }
 
 .memory-pic {
@@ -97,22 +101,25 @@ h2 {
     box-shadow: #bc6c25 3px 5px;
 }
 
-footer {
-    font-family: 'Courier New'; 
-    font-size: small;
-    text-align: center;
-    color: #dda15e;
-    margin-bottom: 10px;
+/*contact*/
+
+.contact-back {
+    background-color: #fefae0;
 }
 
-.foot {
+.frame {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: dotted;
+    border-radius: 15px;
+    box-shadow: 5px 7px;
+}
+
+.git-link {
+    display: block;
+    text-align: center;
     text-decoration: none;
     color: #606c38;
+    background-color: #fefae0;
 }
-
-.poem {
-    color: #dda15e;
-    text-align: center;
-
-}
-
